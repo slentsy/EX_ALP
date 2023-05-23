@@ -5,6 +5,8 @@
  */
 package exwater;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Sophia Madlentsy
@@ -15,7 +17,14 @@ public class ExWater {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+         ArrayList<User> userList = new ArrayList<>();
+         
+        LoginRegister log = new LoginRegister(userList); 
+        
+        System.out.println("==========WELCOME TO WATER INTAKE==========");
+        log.menu();
+        
+        
     }
     
 }

@@ -34,7 +34,7 @@ public class LoginRegister {
             choose = s.nextInt();
             if (choose == 1) {
                 curUser = Login();
-                System.out.println("==================================");
+                System.out.println("==================================")
             } else {
                 curUser = register();
                 System.out.println("==================================");
